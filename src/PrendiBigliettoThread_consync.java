@@ -54,9 +54,9 @@ public class PrendiBigliettoThread_consync extends Thread
 
     public static void main(String[] args) {
         PrendiBigliettoThread_consync p1=new PrendiBigliettoThread_consync();
-        p1.settaNomePersona("bernini");
+        p1.settaNomePersona("Giovanni");
         PrendiBigliettoThread_consync p2=new PrendiBigliettoThread_consync();
-        p2.settaNomePersona("grena");
+        p2.settaNomePersona("Aldo");
         p1.start();
         p2.start();
         System.out.println("Premere ENTER per chiudere");
